@@ -17,10 +17,11 @@ export const getAllNotes = async () => {
     return notes
 }
 
-export const findlNotes = async (filter) => {
-    const {notes} = await getDB()
-    return notes.filter( note => note.content.toLowerCase().includes(filter.content.toLowerCase()))
+export const findNotes = async (filter) => {
+    const notes = await getAllNotes()
+    return notes.filter(note => note.content.toLowerCase().includes(filter.toLowerCase()))
 }
+
 
 export const removeNote = async (id)=> {
     const notes = await getAllNotes()

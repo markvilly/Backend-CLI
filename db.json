@@ -1,18 +1,36 @@
 {
   "notes": [
     {
-      "content": "Clean",
-      "id": 1741090841047,
+      "content": "clean my room",
+      "id": 1741095037678,
       "tags": [
-        "work"
+        "work",
+        " serious"
       ]
     },
     {
-      "content": "wash the tv",
-      "id": 1741091254369,
+      "content": "walk my dog",
+      "id": 1741095080813,
+      "tags": []
+    },
+    {
+      "content": "make pasta",
+      "id": 1741095118783,
+      "tags": []
+    },
+    {
+      "content": "build a unicorn app,",
+      "id": 1741095149590,
       "tags": [
-        "mom chores",
-        " work"
+        "serious",
+        " essential"
+      ]
+    },
+    {
+      "content": "eat more food",
+      "id": 1741096030581,
+      "tags": [
+        "essential"
       ]
     }
   ]
